@@ -41,7 +41,7 @@ internal class Program
 
             foreach(Employee emp in list)
             {
-                Console.WriteLine(emp.Name + $"- " + emp.Payment().ToString("F2", CultureInfo.InvariantCulture));
+                Console.WriteLine(emp.Name + " - $" + emp.Payment().ToString("F2", CultureInfo.InvariantCulture));
             }
         }
     }

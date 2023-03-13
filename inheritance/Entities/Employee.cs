@@ -1,16 +1,16 @@
 ﻿namespace inheritance.Entities
 {
-    internal class Empeloyee
+    internal class Employee
     {
         public string Name { get; set; }
         public int Hours { get; set; }
         public double ValuePerHour { get; set; }
 
-        public Empeloyee() 
+        public Employee() 
         { 
         }
 
-        public Empeloyee(string name, int hours, double valuePerHour)
+        public Employee(string name, int hours, double valuePerHour)
         {
             Name = name;
             Hours = hours;

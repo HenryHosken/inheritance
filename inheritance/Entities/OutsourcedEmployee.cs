@@ -1,6 +1,6 @@
 ﻿namespace inheritance.Entities
 {
-    internal class OutsourcedEmployee : Empeloyee
+    internal class OutsourcedEmployee : Employee
     {
         public double additionalCharge { get; set; }
 
